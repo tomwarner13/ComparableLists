@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Core
 {
   /// <summary>
-  /// A list which is equatable to another list based on the equality of it's items, regardless of order. 
+  /// A list which is equatable to another list based on the equality of its items, regardless of order. 
   /// </summary>
   /// <typeparam name="T"></typeparam>
   public class ComparableList<T> : List<T>, IEquatable<ComparableList<T>> where T : IComparable, IEquatable<T>
