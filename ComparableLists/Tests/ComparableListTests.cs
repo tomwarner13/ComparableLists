@@ -5,7 +5,7 @@ using Core;
 namespace Tests
 {
     [TestClass]
-    public class UnitTest1
+    public class ComparableListTests
     {
         [TestMethod]
         public void TestBasicEquality()
